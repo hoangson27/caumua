@@ -1,0 +1,28 @@
+{
+  "name": "cau-tanh-mua-modern",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Modern Rain Stop Ritual - Website hiện đại cầu trời không mưa",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.7"
+  },
+  "keywords": [
+    "rain-stop",
+    "ritual",
+    "modern-design",
+    "vue3",
+    "spiritual",
+    "weather"
+  ],
+  "author": "Rain Stop Ritual Developer"
+}
