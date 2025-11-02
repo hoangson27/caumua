@@ -3,7 +3,7 @@
 # Build settings
 [build]
   publish = "dist"
-  command = "npm run build"
+  command = "npm ci && npm run build"
 
 # Headers for better performance & security
 [[headers]]
@@ -13,7 +13,6 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'"
 
 # Cache static assets (CSS, JS, images)
 [[headers]]
@@ -35,5 +34,4 @@
 
 # Environment variables
 [build.environment]
-  NODE_VERSION = "18"
-  NPM_FLAGS = "--prefix=/opt/buildhome/.asdf/installs/nodejs/18.18.0/bin/"
+  NODE_VERSION = "20"
